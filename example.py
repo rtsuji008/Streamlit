@@ -56,4 +56,6 @@ def get_chart(data):
 
 chart = get_chart(source)
 
+st.title("株価推移のサンプルグラフ")
+st.markdown("----")
 st.altair_chart(chart, use_container_width=True)
